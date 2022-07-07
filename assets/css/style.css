@@ -256,8 +256,8 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
   transition: 0.5s;
   position: fixed;
-  right: 15px;
-  top: 15px;
+  right: 35px;
+  top: 35px;
 }
 
 @media (max-width: 991px) {
@@ -283,16 +283,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 25px;
+  right: 25px;
 }
 .navbar-mobile ul {
   display: block;
   position: absolute;
   top: 55px;
-  right: 15px;
-  bottom: 45px;
-  left: 15px;
+  right: 45px;
+  bottom: 65px;
+  left: 25px;
   padding: 10px 0;
   overflow-y: auto;
   transition: 0.3s;
@@ -507,6 +507,7 @@ section .container {
 .testimonials .testimonial-item {
   box-sizing: content-box;
   min-height: 320px;
+  height: max-content;
 }
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
