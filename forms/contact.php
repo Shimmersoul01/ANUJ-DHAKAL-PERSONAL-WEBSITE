@@ -1,8 +1,4 @@
 <?php
-  /**
-  
-  */
-
   // Replace contact@example.com with your real receiving email address
   $receiving_email_address = 'anuj.dhakal01@gmail.com';
 
@@ -35,5 +31,4 @@
   $contact->add_message( $_POST['message'], 'Message', 10);
 
   echo $contact->send();
-  mail($receiving_email_address,$contact);
 ?>
